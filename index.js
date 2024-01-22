@@ -19,6 +19,9 @@ app.get('/', (req, res) => {
  app.get('/fun',(req,res)=>{
     res.send(" <h1> bara ghazipur </h1> ")
  })
+ app.get('/haidar', (req, res)=> {
+   res.send("tipu sultan khan")
+ })
 
 
 app.listen(process.env.PORT, () => {
